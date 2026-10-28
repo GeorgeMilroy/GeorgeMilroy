@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="113" height="48" viewBox="-44 0 600 256" role="img" aria-label="Adobe Dimension and Adobe Substance 3D Stager">
+<title>Adobe Dimension and Adobe Substance 3D Stager</title>
+<style>text{font-family:"Segoe UI",Inter,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;font-weight:600;}</style>
+<g>
+  <rect x="0" y="0" width="256" height="256" rx="60" fill="#1A3F3F"/>
+  <text x="128" y="170" text-anchor="middle" font-size="124" fill="#9BEBD6">Dn</text>
+</g>
+<g transform="translate(300 0)">
+  <rect x="0" y="0" width="256" height="256" rx="60" fill="#1E3A2A"/>
+  <text x="128" y="170" text-anchor="middle" font-size="124" fill="#A8E88A">Sg</text>
+</g>
+</svg>

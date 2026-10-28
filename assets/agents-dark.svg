@@ -1,68 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How I build agents: models, tooling and practice">
-<title>How I build agents: models, tooling and practice</title>
-<style>
-text{font-family:Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;}
-.mono{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;}
-*{transform-box:fill-box;}
-
-.flow{stroke-dasharray:3 7;animation:flow 1.6s linear infinite;}
-@keyframes flow{to{stroke-dashoffset:-20}}
-.ring{animation:ring 3s ease-out infinite;transform-origin:center;}
-.ring2{animation-delay:1.5s;}
-@keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(2.1);opacity:0}}
-.bob{animation:bob 5s ease-in-out infinite alternate;}
-@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
-.spin{animation:spin 30s linear infinite;transform-origin:center;}
-@keyframes spin{to{transform:rotate(360deg)}}
-.rise{animation:rise .8s ease-out both;}
-@keyframes rise{from{opacity:0;transform:translateY(10px)}}
-
-@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
-</style>
-<rect x="0.5" y="0.5" width="1199" height="439" rx="20" fill="#0A0D13" stroke="#232B38"/>
-
-<text class="mono" x="80" y="96" font-size="12" letter-spacing="2.4" fill="#8B7CFF">CORE · AI AGENT ENGINEERING</text>
-<text x="78" y="146" font-size="40" font-weight="800" letter-spacing="-1.2" fill="#EEF1F6">Agents that do the work,</text>
-<text x="78" y="192" font-size="40" font-weight="800" letter-spacing="-1.2" fill="#97A0B0">not the demo.</text>
-<g class="rise" style="animation-delay:0.00s"><line x1="80" y1="230" x2="610" y2="230" stroke="#232B38"/><text class="mono" x="80" y="252" font-size="11" letter-spacing="2" fill="#4B5566">MODELS</text><text x="190" y="252" font-size="15.5" fill="#EEF1F6">Claude · OpenAI · Gemini · Vertex AI</text></g>
-<g class="rise" style="animation-delay:0.15s"><line x1="80" y1="272" x2="610" y2="272" stroke="#232B38"/><text class="mono" x="80" y="294" font-size="11" letter-spacing="2" fill="#4B5566">TOOLING</text><text x="190" y="294" font-size="15.5" fill="#EEF1F6">MCP · Claude Code · Document AI · function calling</text></g>
-<g class="rise" style="animation-delay:0.30s"><line x1="80" y1="314" x2="610" y2="314" stroke="#232B38"/><text class="mono" x="80" y="336" font-size="11" letter-spacing="2" fill="#4B5566">PRACTICE</text><text x="190" y="336" font-size="15.5" fill="#EEF1F6">evals · guardrails · grounding · human sign-off</text></g>
-<g class="rise" style="animation-delay:0.45s"><line x1="80" y1="356" x2="610" y2="356" stroke="#232B38"/><text class="mono" x="80" y="378" font-size="11" letter-spacing="2" fill="#4B5566">SHIPS ON</text><text x="190" y="378" font-size="15.5" fill="#EEF1F6">Firebase · Google Cloud · Cloudflare · Adobe UXP</text></g>
-<ellipse class="flow" style="animation-duration:6s" cx="880" cy="222" rx="226" ry="166" fill="none" stroke="#2E3848"/>
-<path id="e0" d="M880,222 Q767,191 680,112" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q767,191 680,112" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#2DD4BF"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e0"/></animateMotion></circle>
-<path id="e1" d="M880,222 Q840,144 840,57" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q840,144 840,57" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#FB7185"><animateMotion dur="2.9s" begin="0.35s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e1"/></animateMotion></circle>
-<path id="e2" d="M880,222 Q939,139 1030,92" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q939,139 1030,92" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#F5B041"><animateMotion dur="3.4s" begin="0.70s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e2"/></animateMotion></circle>
-<path id="e3" d="M880,222 Q986,191 1095,212" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q986,191 1095,212" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#8B7CFF"><animateMotion dur="2.4s" begin="1.05s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e3"/></animateMotion></circle>
-<path id="e4" d="M880,222 Q977,262 1045,342" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q977,262 1045,342" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#2DD4BF"><animateMotion dur="2.9s" begin="1.40s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e4"/></animateMotion></circle>
-<path id="e5" d="M880,222 Q905,303 890,387" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q905,303 890,387" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#FB7185"><animateMotion dur="3.4s" begin="1.75s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e5"/></animateMotion></circle>
-<path id="e6" d="M880,222 Q812,304 715,347" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q812,304 715,347" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#F5B041"><animateMotion dur="2.4s" begin="2.10s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e6"/></animateMotion></circle>
-<path id="e7" d="M880,222 Q769,254 655,232" fill="none" stroke="#2E3848" stroke-width="1.2"/>
-<path class="flow" d="M880,222 Q769,254 655,232" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
-<circle r="3.2" fill="#8B7CFF"><animateMotion dur="2.9s" begin="2.45s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e7"/></animateMotion></circle>
-<g class="bob" style="animation-delay:-0.0s"><rect x="642.5" y="97" width="75.0" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="655.5" cy="112" r="3.5" fill="#2DD4BF"/><text x="666.5" y="116.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Tools</text></g>
-<g class="bob" style="animation-delay:-0.7s"><rect x="809.9" y="42" width="60.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="822.9" cy="57" r="3.5" fill="#FB7185"/><text x="833.9" y="61.5" font-size="12.5" font-weight="600" fill="#EEF1F6">MCP</text></g>
-<g class="bob" style="animation-delay:-1.4s"><rect x="999.9" y="77" width="60.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="1012.9" cy="92" r="3.5" fill="#F5B041"/><text x="1023.9" y="96.5" font-size="12.5" font-weight="600" fill="#EEF1F6">RAG</text></g>
-<g class="bob" style="animation-delay:-2.1s"><rect x="1053.8" y="197" width="82.4" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="1066.8" cy="212" r="3.5" fill="#8B7CFF"/><text x="1077.8" y="216.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Memory</text></g>
-<g class="bob" style="animation-delay:-2.8s"><rect x="989.0" y="327" width="112.0" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="1002.0" cy="342" r="3.5" fill="#2DD4BF"/><text x="1013.0" y="346.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Guardrails</text></g>
-<g class="bob" style="animation-delay:-3.5s"><rect x="852.5" y="372" width="75.0" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="865.5" cy="387" r="3.5" fill="#FB7185"/><text x="876.5" y="391.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Evals</text></g>
-<g class="bob" style="animation-delay:-4.2s"><rect x="647.9" y="332" width="134.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="660.9" cy="347" r="3.5" fill="#F5B041"/><text x="671.9" y="351.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Human-in-loop</text></g>
-<g class="bob" style="animation-delay:-4.9s"><rect x="587.9" y="217" width="134.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="600.9" cy="232" r="3.5" fill="#8B7CFF"/><text x="611.9" y="236.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Orchestration</text></g>
-<circle class="ring" cx="880" cy="222" r="50" fill="none" stroke="#8B7CFF"/><circle class="ring ring2" cx="880" cy="222" r="50" fill="none" stroke="#8B7CFF"/>
-<circle cx="880" cy="222" r="50" fill="#EEF1F6"/>
-<text class="mono" x="880" y="220" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#0A0D13">AGENT</text>
-<text class="mono" x="880" y="235" text-anchor="middle" font-size="8.5" fill="#0A0D13" fill-opacity=".6">plan·act·check</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="516" viewBox="0 0 1200 516" role="img" aria-label="Agents that do the work, not the demo. Models, tooling, practice and eight core capabilities.">
+<title>Agents that do the work, not the demo. Models, tooling, practice and eight core capabilities.</title>
+<style>text{font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Segoe UI", Inter, Arial, sans-serif;}.b1,.b2,.b3,.run{transform-box:fill-box;transform-origin:center;}.b1{animation:drift1 26s ease-in-out infinite alternate;}.b2{animation:drift2 30s ease-in-out infinite alternate;animation-delay:-9s;}.b3{animation:drift3 22s ease-in-out infinite alternate;animation-delay:-5s;}.run{stroke-linecap:round;animation:run 9s linear infinite;}@keyframes drift1{to{transform:translate(48px,36px);}}@keyframes drift2{to{transform:translate(-52px,-40px);}}@keyframes drift3{to{transform:translate(40px,-30px);}}@keyframes run{from{stroke-dashoffset:90;}to{stroke-dashoffset:-1657;}}@media (prefers-reduced-motion: reduce){*{animation:none!important;}}</style>
+<defs>
+<clipPath id="tile"><rect x="0" y="0" width="1200" height="516" rx="28"/></clipPath>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
+<filter id="bloom" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="shadow" x="-30%" y="-50%" width="160%" height="220%"><feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000000" flood-opacity=".55"/></filter>
+<linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".32"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".06"/></linearGradient>
+<linearGradient id="depth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".06"/><stop offset=".4" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A5B4FC" stop-opacity=".9"/><stop offset="1" stop-color="#D29922" stop-opacity=".9"/></linearGradient>
+</defs>
+<rect x="0.5" y="0.5" width="1199" height="515" rx="28" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<g clip-path="url(#tile)" filter="url(#blur)">
+<circle class="b1" cx="250" cy="120" r="330" fill="#4F46E5" fill-opacity=".56"/>
+<circle class="b2" cx="1010" cy="480" r="300" fill="#9E6A03" fill-opacity=".62"/>
+<circle class="b3" cx="820" cy="230" r="160" fill="#4F46E5" fill-opacity=".28"/>
+</g>
+<text x="600" y="86" text-anchor="middle" font-size="48" font-weight="600" letter-spacing="-1.2" fill="#F0F6FC">Agents that do the work,</text>
+<text x="600" y="142" text-anchor="middle" font-size="48" font-weight="600" letter-spacing="-1.2" fill="#F0F6FC">not the demo.</text>
+<rect x="80" y="184" width="560" height="292" rx="28" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="80" y="184" width="560" height="292" rx="28" fill="url(#depth)"/>
+<rect x="80" y="184" width="560" height="292" rx="28" fill="none" stroke="url(#ring)" stroke-width="6" stroke-opacity=".18" filter="url(#bloom)"/>
+<rect x="80" y="184" width="560" height="292" rx="28" fill="none" stroke="url(#ring)" stroke-width="1.75"/>
+<rect class="run" x="80" y="184" width="560" height="292" rx="28" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity=".9" stroke-dasharray="90 1657" stroke-dashoffset="90"/>
+<text x="112" y="231" font-size="18" font-weight="500" fill="#6E7681">Models</text>
+<text x="222" y="231" font-size="20" font-weight="400" fill="#9198A1">Claude · OpenAI · Gemini</text>
+<text x="222" y="255" font-size="20" font-weight="400" fill="#9198A1">Vertex AI · model tiering</text>
+<line x1="112" y1="269" x2="608" y2="269" stroke="#30363D" stroke-opacity="1" stroke-width="1"/>
+<text x="112" y="292" font-size="18" font-weight="500" fill="#6E7681">Tooling</text>
+<text x="222" y="292" font-size="20" font-weight="400" fill="#9198A1">MCP · Agent Skills</text>
+<text x="222" y="316" font-size="20" font-weight="400" fill="#9198A1">Claude Code · Document AI</text>
+<line x1="112" y1="330" x2="608" y2="330" stroke="#30363D" stroke-opacity="1" stroke-width="1"/>
+<text x="112" y="353" font-size="18" font-weight="500" fill="#6E7681">Practice</text>
+<text x="222" y="353" font-size="20" font-weight="400" fill="#9198A1">Evals · guardrails · grounding</text>
+<text x="222" y="377" font-size="20" font-weight="400" fill="#9198A1">orchestration · human sign-off</text>
+<line x1="112" y1="391" x2="608" y2="391" stroke="#30363D" stroke-opacity="1" stroke-width="1"/>
+<text x="112" y="414" font-size="18" font-weight="500" fill="#6E7681">Ships on</text>
+<text x="222" y="414" font-size="20" font-weight="400" fill="#9198A1">Google Cloud · Firebase · NoSQL</text>
+<text x="222" y="438" font-size="20" font-weight="400" fill="#9198A1">Cloudflare · Docker · Adobe UXP/CEP</text>
+<rect x="672" y="184" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="672" y="184" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="672" y="184" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(692,200.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></g>
+<text x="732" y="220.5" font-size="18" font-weight="500" fill="#F0F6FC">Tools</text>
+<rect x="904" y="184" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="904" y="184" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="904" y="184" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(924,200.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8H6v4a6 6 0 0 0 12 0V8z"/></g>
+<text x="964" y="220.5" font-size="18" font-weight="500" fill="#F0F6FC">MCP</text>
+<rect x="672" y="261" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="672" y="261" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="672" y="261" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(692,277.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></g>
+<text x="732" y="297.5" font-size="18" font-weight="500" fill="#F0F6FC">RAG</text>
+<rect x="904" y="261" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="904" y="261" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="904" y="261" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(924,277.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></g>
+<text x="964" y="297.5" font-size="18" font-weight="500" fill="#F0F6FC">Memory</text>
+<rect x="672" y="338" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="672" y="338" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="672" y="338" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(692,354.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></g>
+<text x="732" y="374.5" font-size="18" font-weight="500" fill="#F0F6FC">Guardrails</text>
+<rect x="904" y="338" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="904" y="338" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="904" y="338" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(924,354.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></g>
+<text x="964" y="374.5" font-size="18" font-weight="500" fill="#F0F6FC">Evals</text>
+<rect x="672" y="415" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="672" y="415" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="672" y="415" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(692,431.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></g>
+<text x="732" y="451.5" font-size="18" font-weight="500" fill="#F0F6FC">Human-in-loop</text>
+<rect x="904" y="415" width="216" height="61" rx="20" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/>
+<rect x="904" y="415" width="216" height="61" rx="20" fill="url(#depth)"/>
+<rect x="904" y="415" width="216" height="61" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.25"/>
+<g transform="translate(924,431.5) scale(1.1667)" fill="none" stroke="#A5B4FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect x="13" y="13" width="8" height="8" rx="2"/></g>
+<text x="964" y="451.5" font-size="18" font-weight="500" fill="#F0F6FC">Orchestration</text>
 </svg>
