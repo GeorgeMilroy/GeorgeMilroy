@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="mailto:milroyentertainment@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/george-milroy-devadasan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/george-milroy-devadasan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTMgMS40NS0yLjEzIDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTN6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6Ii8+PC9zdmc+" alt="LinkedIn"></a>
   <a href="https://advancedpremediasolutions.com/"><img src="https://img.shields.io/badge/RangeXT-Website-FF7F00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="RangeXT website"></a>
   <img src="https://img.shields.io/badge/Based_in-Dubai-555555?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Based in Dubai">
 </p>
@@ -49,16 +49,16 @@
 
 <p align="center"><b>Engineering</b><br><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,vue,nodejs,gcp,firebase,cloudflare,docker,githubactions,flutter&theme=dark">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,vue,nodejs,gcp,firebase,cloudflare,docker,githubactions,flutter&theme=light" alt="Python, TypeScript, JavaScript, Vue, Node.js, Google Cloud, Firebase, NoSQL, Cloudflare, Docker, GitHub Actions, Flutter">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-engineering-dark.svg">
+    <img src="./assets/stack-engineering-light.svg" height="48" alt="Python, TypeScript, JavaScript, Vue, Node.js, Google Cloud, Firebase, NoSQL, Cloudflare, Docker, GitHub Actions, Flutter">
   </picture>
 </p>
 
 <p align="center"><b>Creative tech</b><br><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=unity,unreal,ai,ps,ae,pr,xd&theme=dark">
-    <img src="https://skillicons.dev/icons?i=unity,unreal,ai,ps,ae,pr,xd&theme=light" alt="Unity, Unreal Engine, Illustrator, Photoshop, After Effects, Premiere Pro, XD">
-  </picture><img src="./assets/icons-adobe-3d.svg" height="48" alt="Adobe Dimension, Adobe Substance 3D Stager">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-creative-dark.svg">
+    <img src="./assets/stack-creative-light.svg" height="48" alt="Unity, Unreal Engine, Illustrator, Photoshop, After Effects, Premiere Pro, XD, Adobe Dimension, Adobe Substance 3D Stager">
+  </picture>
 </p>
 
 <br>
