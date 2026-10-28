@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="PPM Workflow — print production management with AI invoice matching">
+<title>PPM Workflow — print production management with AI invoice matching</title>
+<style>
+text{font-family:Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;}
+.mono{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;}
+*{transform-box:fill-box;}
+
+.rise{animation:rise .8s ease-out both;}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+.shine{animation:shine 4s ease-in-out infinite;}
+@keyframes shine{0%,60%{transform:translateX(-120px)}100%{transform:translateX(320px)}}
+
+.job{animation:job 10s cubic-bezier(.7,0,.25,1) infinite both;}
+@keyframes job{0%,10%{transform:translateX(0)}18%,28%{transform:translateX(92px)}36%,46%{transform:translateX(184px)}54%,64%{transform:translateX(276px)}72%,96%{transform:translateX(368px)}100%{transform:translateX(0)}}
+.lit{animation:lit 10s ease infinite both;}
+@keyframes lit{0%{fill-opacity:0}3%,92%{fill-opacity:1}98%,100%{fill-opacity:0}}
+.prog{transform-origin:0 50%;animation:prog 10s cubic-bezier(.7,0,.25,1) infinite both;}
+@keyframes prog{0%,10%{transform:scaleX(0)}18%,28%{transform:scaleX(.25)}36%,46%{transform:scaleX(.5)}54%,64%{transform:scaleX(.75)}72%,96%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+.scanl{animation:scanl 3.2s ease-in-out infinite alternate;}
+@keyframes scanl{from{transform:translateY(0)}to{transform:translateY(112px)}}
+.ocr{animation:ocr 6s ease infinite both;}
+@keyframes ocr{0%{opacity:0}8%,85%{opacity:1}100%{opacity:0}}
+.row{animation:row 6s ease infinite both;}
+@keyframes row{0%,20%{opacity:0;transform:translateX(-6px)}28%,88%{opacity:1;transform:none}100%{opacity:0}}
+.match{animation:match 6s ease infinite both;transform-origin:center;}
+@keyframes match{0%,62%{opacity:0;transform:scale(.8)}70%,92%{opacity:1;transform:none}100%{opacity:0}}
+.flowx{stroke-dasharray:4 5;animation:flowx 1s linear infinite;}
+@keyframes flowx{to{stroke-dashoffset:-9}}
+@keyframes lit_0{0%,2%{fill-opacity:0}4%,94%{fill-opacity:1}98%,100%{fill-opacity:0}}
+.lit_0{animation:lit_0 10s ease infinite both;}
+@keyframes lit_1{0%,20%{fill-opacity:0}22%,94%{fill-opacity:1}98%,100%{fill-opacity:0}}
+.lit_1{animation:lit_1 10s ease infinite both;}
+@keyframes lit_2{0%,38%{fill-opacity:0}40%,94%{fill-opacity:1}98%,100%{fill-opacity:0}}
+.lit_2{animation:lit_2 10s ease infinite both;}
+@keyframes lit_3{0%,56%{fill-opacity:0}58%,94%{fill-opacity:1}98%,100%{fill-opacity:0}}
+.lit_3{animation:lit_3 10s ease infinite both;}
+@keyframes lit_4{0%,74%{fill-opacity:0}76%,94%{fill-opacity:1}98%,100%{fill-opacity:0}}
+.lit_4{animation:lit_4 10s ease infinite both;}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
+</style>
+<rect x="0.5" y="0.5" width="1199" height="399" rx="20" fill="#F8F9FC" stroke="#E3E6EE"/>
+
+<text x="636" y="150" text-anchor="end" font-size="130" font-weight="800" letter-spacing="-6" fill="none" stroke="#D0D5E1" stroke-width="1.2">03</text>
+<text class="mono rise" x="80" y="84" font-size="11.5" letter-spacing="2.2" fill="#6D5BFF">03 — WORKFLOWS · LEAD DEVELOPER &amp; ARCHITECT</text>
+<text class="rise" x="78" y="140" font-size="48" font-weight="800" letter-spacing="-1.6" fill="#14161C">PPM Workflow</text>
+<g class=""><rect x="80" y="158" width="177" height="24" rx="12.0" fill="none" stroke="#5A6170" stroke-opacity=".55"/><text class="mono" x="168.5" y="173.8" text-anchor="middle" font-size="10.5" letter-spacing=".4" fill="#5A6170">IN PRODUCTION SINCE 2021</text></g>
+<text class="rise" x="80" y="222" font-size="16" fill="#5A6170">Production management for offset and flexo plates: stage</text>
+<text class="rise" x="80" y="248" font-size="16" fill="#5A6170">tracking from artwork to dispatch, approval cycles, and AI</text>
+<text class="rise" x="80" y="274" font-size="16" fill="#5A6170">invoice extraction checked against live SAP purchase orders</text>
+<text class="rise" x="80" y="300" font-size="16" fill="#5A6170">before billing.</text>
+<g class=""><rect x="80" y="334" width="55" height="26" rx="13.0" fill="#F0F2F8" stroke="#14161C" stroke-opacity=".12"/><text class="mono" x="107.5" y="350.8" text-anchor="middle" font-size="10.5" letter-spacing=".4" fill="#14161C">VUE 3</text></g>
+<g class=""><rect x="141" y="334" width="150" height="26" rx="13.0" fill="#F0F2F8" stroke="#14161C" stroke-opacity=".12"/><text class="mono" x="216.0" y="350.8" text-anchor="middle" font-size="10.5" letter-spacing=".4" fill="#14161C">100+ CLOUD FUNCTIONS</text></g>
+<g class=""><rect x="297" y="334" width="80" height="26" rx="13.0" fill="#F0F2F8" stroke="#14161C" stroke-opacity=".12"/><text class="mono" x="337.0" y="350.8" text-anchor="middle" font-size="10.5" letter-spacing=".4" fill="#14161C">FIRESTORE</text></g>
+<g class=""><rect x="383" y="334" width="42" height="26" rx="13.0" fill="#F0F2F8" stroke="#14161C" stroke-opacity=".12"/><text class="mono" x="404.0" y="350.8" text-anchor="middle" font-size="10.5" letter-spacing=".4" fill="#14161C">SAP</text></g>
+<rect x="676" y="40" width="486" height="320" rx="14" fill="#FFFFFF" stroke="#E3E6EE"/><circle cx="694" cy="57" r="3.5" fill="#D0D5E1"/><circle cx="706" cy="57" r="3.5" fill="#D0D5E1"/><circle cx="718" cy="57" r="3.5" fill="#D0D5E1"/><text class="mono" x="734" y="61" font-size="11" fill="#5A6170">PPM Workflow — plate production</text><line x1="676" y1="74" x2="1162" y2="74" stroke="#E3E6EE"/>
+<line x1="734" y1="124" x2="1102" y2="124" stroke="#D0D5E1" stroke-width="2"/>
+<line class="prog" x1="734" y1="124" x2="1102" y2="124" stroke="#6D5BFF" stroke-width="2"/>
+<circle cx="734" cy="124" r="11" fill="#FFFFFF" stroke="#D0D5E1" stroke-width="2"/>
+<circle class="lit_0" cx="734" cy="124" r="11" fill="#6D5BFF"/>
+<text class="mono" x="734" y="156" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#5A6170">ARTWORK</text>
+<circle cx="826" cy="124" r="11" fill="#FFFFFF" stroke="#D0D5E1" stroke-width="2"/>
+<circle class="lit_1" cx="826" cy="124" r="11" fill="#6D5BFF"/>
+<text class="mono" x="826" y="156" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#5A6170">APPROVAL</text>
+<circle cx="918" cy="124" r="11" fill="#FFFFFF" stroke="#D0D5E1" stroke-width="2"/>
+<circle class="lit_2" cx="918" cy="124" r="11" fill="#6D5BFF"/>
+<text class="mono" x="918" y="156" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#5A6170">CTP</text>
+<circle cx="1010" cy="124" r="11" fill="#FFFFFF" stroke="#D0D5E1" stroke-width="2"/>
+<circle class="lit_3" cx="1010" cy="124" r="11" fill="#6D5BFF"/>
+<text class="mono" x="1010" y="156" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#5A6170">PRESS</text>
+<circle cx="1102" cy="124" r="11" fill="#FFFFFF" stroke="#D0D5E1" stroke-width="2"/>
+<circle class="lit_4" cx="1102" cy="124" r="11" fill="#6D5BFF"/>
+<text class="mono" x="1102" y="156" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#5A6170">DISPATCH</text>
+<g class="job"><rect x="700" y="80" width="68" height="22" rx="6" fill="#14161C"/><text class="mono" x="734" y="95" text-anchor="middle" font-size="10" font-weight="700" fill="#F8F9FC">JOB 2611</text><path d="M729,102 l5,6 l5,-6z" fill="#14161C"/></g>
+<rect x="708" y="174" width="164" height="140" rx="8" fill="#FFFFFF" stroke="#D0D5E1"/>
+<text class="mono" x="720" y="196" font-size="10" font-weight="700" fill="#2A2D35">INVOICE.pdf</text>
+<rect x="720" y="214" width="90" height="6" rx="3" fill="#2A2D35" fill-opacity=".22"/>
+<rect x="720" y="230" width="120" height="6" rx="3" fill="#2A2D35" fill-opacity=".22"/>
+<rect x="720" y="246" width="70" height="6" rx="3" fill="#2A2D35" fill-opacity=".22"/>
+<rect x="720" y="266" width="130" height="6" rx="3" fill="#2A2D35" fill-opacity=".22"/>
+<rect x="720" y="282" width="100" height="6" rx="3" fill="#2A2D35" fill-opacity=".22"/>
+<rect x="720" y="300" width="60" height="6" rx="3" fill="#2A2D35" fill-opacity=".22"/>
+<rect class="ocr" style="animation-delay:0.0s" x="716" y="209" width="98" height="16" rx="3" fill="#0D9488" fill-opacity=".12" stroke="#0D9488"/>
+<rect class="ocr" style="animation-delay:0.5s" x="716" y="261" width="138" height="16" rx="3" fill="#0D9488" fill-opacity=".12" stroke="#0D9488"/>
+<rect class="ocr" style="animation-delay:1.0s" x="716" y="295" width="68" height="16" rx="3" fill="#0D9488" fill-opacity=".12" stroke="#0D9488"/>
+<defs><clipPath id="ic"><rect x="708" y="174" width="164" height="140" rx="8"/></clipPath></defs>
+<g clip-path="url(#ic)"><g class="scanl"><rect x="708" y="194" width="164" height="18" fill="#6D5BFF" fill-opacity=".10"/><line x1="708" y1="212" x2="872" y2="212" stroke="#6D5BFF" stroke-width="1.5"/></g></g>
+<text class="mono" x="790" y="334" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#A3A9B8">OPENAI · GEMINI EXTRACT</text>
+<path class="flowx" d="M880,249 H914" stroke="#6D5BFF" stroke-width="1.6" fill="none"/><path d="M914,244 l7,5 l-7,5z" fill="#6D5BFF"/>
+<rect x="928" y="174" width="204" height="140" rx="8" fill="#F0F2F8" stroke="#D0D5E1"/>
+<text class="mono" x="940" y="196" font-size="10" font-weight="700" fill="#14161C">SAP · PURCHASE ORDER</text>
+<g class="row" style="animation-delay:0.00s"><text x="940" y="220" font-size="12" fill="#5A6170">PO number</text><circle cx="1114" cy="216" r="7" fill="#119A62"/><path d="M1110.5,216 l2.5,2.5 l4.5,-5" stroke="#F0F2F8" stroke-width="1.8" fill="none"/></g>
+<g class="row" style="animation-delay:0.35s"><text x="940" y="246" font-size="12" fill="#5A6170">Line items</text><circle cx="1114" cy="242" r="7" fill="#119A62"/><path d="M1110.5,242 l2.5,2.5 l4.5,-5" stroke="#F0F2F8" stroke-width="1.8" fill="none"/></g>
+<g class="row" style="animation-delay:0.70s"><text x="940" y="272" font-size="12" fill="#5A6170">Amount</text><circle cx="1114" cy="268" r="7" fill="#119A62"/><path d="M1110.5,268 l2.5,2.5 l4.5,-5" stroke="#F0F2F8" stroke-width="1.8" fill="none"/></g>
+<g class="match"><rect x="940" y="278" width="180" height="26" rx="13" fill="#119A62" fill-opacity=".14" stroke="#119A62"/><text class="mono" x="1030" y="295" text-anchor="middle" font-size="10.5" font-weight="700" fill="#119A62">MATCHED · READY TO BILL</text></g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How I build agents: models, tooling and practice">
+<title>How I build agents: models, tooling and practice</title>
+<style>
+text{font-family:Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;}
+.mono{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;}
+*{transform-box:fill-box;}
+
+.flow{stroke-dasharray:3 7;animation:flow 1.6s linear infinite;}
+@keyframes flow{to{stroke-dashoffset:-20}}
+.ring{animation:ring 3s ease-out infinite;transform-origin:center;}
+.ring2{animation-delay:1.5s;}
+@keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(2.1);opacity:0}}
+.bob{animation:bob 5s ease-in-out infinite alternate;}
+@keyframes bob{from{transform:translateY(-3px)}to{transform:translateY(3px)}}
+.spin{animation:spin 30s linear infinite;transform-origin:center;}
+@keyframes spin{to{transform:rotate(360deg)}}
+.rise{animation:rise .8s ease-out both;}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
+</style>
+<rect x="0.5" y="0.5" width="1199" height="439" rx="20" fill="#0A0D13" stroke="#232B38"/>
+
+<text class="mono" x="80" y="96" font-size="12" letter-spacing="2.4" fill="#8B7CFF">CORE · AI AGENT ENGINEERING</text>
+<text x="78" y="146" font-size="40" font-weight="800" letter-spacing="-1.2" fill="#EEF1F6">Agents that do the work,</text>
+<text x="78" y="192" font-size="40" font-weight="800" letter-spacing="-1.2" fill="#97A0B0">not the demo.</text>
+<g class="rise" style="animation-delay:0.00s"><line x1="80" y1="230" x2="610" y2="230" stroke="#232B38"/><text class="mono" x="80" y="252" font-size="11" letter-spacing="2" fill="#4B5566">MODELS</text><text x="190" y="252" font-size="15.5" fill="#EEF1F6">Claude · OpenAI · Gemini · Vertex AI</text></g>
+<g class="rise" style="animation-delay:0.15s"><line x1="80" y1="272" x2="610" y2="272" stroke="#232B38"/><text class="mono" x="80" y="294" font-size="11" letter-spacing="2" fill="#4B5566">TOOLING</text><text x="190" y="294" font-size="15.5" fill="#EEF1F6">MCP · Claude Code · Document AI · function calling</text></g>
+<g class="rise" style="animation-delay:0.30s"><line x1="80" y1="314" x2="610" y2="314" stroke="#232B38"/><text class="mono" x="80" y="336" font-size="11" letter-spacing="2" fill="#4B5566">PRACTICE</text><text x="190" y="336" font-size="15.5" fill="#EEF1F6">evals · guardrails · grounding · human sign-off</text></g>
+<g class="rise" style="animation-delay:0.45s"><line x1="80" y1="356" x2="610" y2="356" stroke="#232B38"/><text class="mono" x="80" y="378" font-size="11" letter-spacing="2" fill="#4B5566">SHIPS ON</text><text x="190" y="378" font-size="15.5" fill="#EEF1F6">Firebase · Google Cloud · Cloudflare · Adobe UXP</text></g>
+<ellipse class="flow" style="animation-duration:6s" cx="880" cy="222" rx="226" ry="166" fill="none" stroke="#2E3848"/>
+<path id="e0" d="M880,222 Q767,191 680,112" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q767,191 680,112" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#2DD4BF"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e0"/></animateMotion></circle>
+<path id="e1" d="M880,222 Q840,144 840,57" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q840,144 840,57" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#FB7185"><animateMotion dur="2.9s" begin="0.35s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e1"/></animateMotion></circle>
+<path id="e2" d="M880,222 Q939,139 1030,92" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q939,139 1030,92" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#F5B041"><animateMotion dur="3.4s" begin="0.70s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e2"/></animateMotion></circle>
+<path id="e3" d="M880,222 Q986,191 1095,212" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q986,191 1095,212" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#8B7CFF"><animateMotion dur="2.4s" begin="1.05s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e3"/></animateMotion></circle>
+<path id="e4" d="M880,222 Q977,262 1045,342" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q977,262 1045,342" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#2DD4BF"><animateMotion dur="2.9s" begin="1.40s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e4"/></animateMotion></circle>
+<path id="e5" d="M880,222 Q905,303 890,387" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q905,303 890,387" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#FB7185"><animateMotion dur="3.4s" begin="1.75s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e5"/></animateMotion></circle>
+<path id="e6" d="M880,222 Q812,304 715,347" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q812,304 715,347" fill="none" stroke="#FB7185" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#F5B041"><animateMotion dur="2.4s" begin="2.10s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e6"/></animateMotion></circle>
+<path id="e7" d="M880,222 Q769,254 655,232" fill="none" stroke="#2E3848" stroke-width="1.2"/>
+<path class="flow" d="M880,222 Q769,254 655,232" fill="none" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="1.2"/>
+<circle r="3.2" fill="#8B7CFF"><animateMotion dur="2.9s" begin="2.45s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#e7"/></animateMotion></circle>
+<g class="bob" style="animation-delay:-0.0s"><rect x="642.5" y="97" width="75.0" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="655.5" cy="112" r="3.5" fill="#2DD4BF"/><text x="666.5" y="116.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Tools</text></g>
+<g class="bob" style="animation-delay:-0.7s"><rect x="809.9" y="42" width="60.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="822.9" cy="57" r="3.5" fill="#FB7185"/><text x="833.9" y="61.5" font-size="12.5" font-weight="600" fill="#EEF1F6">MCP</text></g>
+<g class="bob" style="animation-delay:-1.4s"><rect x="999.9" y="77" width="60.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="1012.9" cy="92" r="3.5" fill="#F5B041"/><text x="1023.9" y="96.5" font-size="12.5" font-weight="600" fill="#EEF1F6">RAG</text></g>
+<g class="bob" style="animation-delay:-2.1s"><rect x="1053.8" y="197" width="82.4" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="1066.8" cy="212" r="3.5" fill="#8B7CFF"/><text x="1077.8" y="216.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Memory</text></g>
+<g class="bob" style="animation-delay:-2.8s"><rect x="989.0" y="327" width="112.0" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="1002.0" cy="342" r="3.5" fill="#2DD4BF"/><text x="1013.0" y="346.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Guardrails</text></g>
+<g class="bob" style="animation-delay:-3.5s"><rect x="852.5" y="372" width="75.0" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="865.5" cy="387" r="3.5" fill="#FB7185"/><text x="876.5" y="391.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Evals</text></g>
+<g class="bob" style="animation-delay:-4.2s"><rect x="647.9" y="332" width="134.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="660.9" cy="347" r="3.5" fill="#F5B041"/><text x="671.9" y="351.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Human-in-loop</text></g>
+<g class="bob" style="animation-delay:-4.9s"><rect x="587.9" y="217" width="134.2" height="30" rx="15" fill="#10151E" stroke="#2E3848"/><circle cx="600.9" cy="232" r="3.5" fill="#8B7CFF"/><text x="611.9" y="236.5" font-size="12.5" font-weight="600" fill="#EEF1F6">Orchestration</text></g>
+<circle class="ring" cx="880" cy="222" r="50" fill="none" stroke="#8B7CFF"/><circle class="ring ring2" cx="880" cy="222" r="50" fill="none" stroke="#8B7CFF"/>
+<circle cx="880" cy="222" r="50" fill="#EEF1F6"/>
+<text class="mono" x="880" y="220" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#0A0D13">AGENT</text>
+<text class="mono" x="880" y="235" text-anchor="middle" font-size="8.5" fill="#0A0D13" fill-opacity=".6">plan·act·check</text>
+</svg>

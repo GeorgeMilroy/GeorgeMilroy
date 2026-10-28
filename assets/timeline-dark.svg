@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Career timeline 2012 to 2026">
+<title>Career timeline 2012 to 2026</title>
+<style>
+text{font-family:Inter, 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;}
+.mono{font-family:ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace;}
+*{transform-box:fill-box;}
+
+.draw{stroke-dasharray:100;animation:draw 3.5s cubic-bezier(.6,0,.2,1) .3s both;}
+@keyframes draw{from{stroke-dashoffset:100}}
+.pop{animation:pop .6s cubic-bezier(.3,1.6,.5,1) both;transform-origin:center;}
+@keyframes pop{from{opacity:0;transform:scale(0)}}
+.fadein{animation:fadein .6s ease both;}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}}
+.now{animation:now 2s ease-out infinite;transform-origin:center;}
+@keyframes now{0%{transform:scale(1);opacity:.8}100%{transform:scale(3);opacity:0}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
+</style>
+<rect x="0.5" y="0.5" width="1199" height="359" rx="20" fill="#0A0D13" stroke="#232B38"/>
+
+<text class="mono" x="80" y="78" font-size="12" letter-spacing="2.4" fill="#8B7CFF">FOURTEEN YEARS, ONE THREAD</text>
+<text x="78" y="116" font-size="28" font-weight="800" letter-spacing="-.8" fill="#EEF1F6">From building courseware to building agents.</text>
+<line x1="120" y1="222" x2="1080" y2="222" stroke="#2E3848" stroke-width="2"/>
+<defs><linearGradient id="tg" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset=".5" stop-color="#FB7185"/><stop offset="1" stop-color="#8B7CFF"/></linearGradient></defs>
+<path class="draw" pathLength="100" d="M120,222 H1080" stroke="url(#tg)" stroke-width="3" stroke-linecap="round"/>
+<circle class="pop" style="animation-delay:0.30s" cx="120.0" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:0.40s"><line x1="120.0" y1="210" x2="120.0" y2="198" stroke="#2E3848"/><text class="mono" x="120.0" y="152" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2012</text><text x="120.0" y="168" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">Instructional</text><text x="120.0" y="183" text-anchor="middle" font-size="11.5" fill="#97A0B0">Designer</text></g>
+<circle class="pop" style="animation-delay:0.80s" cx="257.1428571428571" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:0.90s"><line x1="257.1428571428571" y1="234" x2="257.1428571428571" y2="246" stroke="#2E3848"/><text class="mono" x="257.1428571428571" y="262" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2014</text><text x="257.1428571428571" y="279" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">Production</text><text x="257.1428571428571" y="294" text-anchor="middle" font-size="11.5" fill="#97A0B0">Executive</text></g>
+<circle class="pop" style="animation-delay:1.30s" cx="394.2857142857143" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:1.40s"><line x1="394.2857142857143" y1="210" x2="394.2857142857143" y2="198" stroke="#2E3848"/><text class="mono" x="394.2857142857143" y="152" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2017</text><text x="394.2857142857143" y="168" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">Candela Learning</text><text x="394.2857142857143" y="183" text-anchor="middle" font-size="11.5" fill="#97A0B0">begins</text></g>
+<circle class="pop" style="animation-delay:1.80s" cx="531.4285714285714" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:1.90s"><line x1="531.4285714285714" y1="234" x2="531.4285714285714" y2="246" stroke="#2E3848"/><text class="mono" x="531.4285714285714" y="262" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2021</text><text x="531.4285714285714" y="279" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">PPM Workflow</text><text x="531.4285714285714" y="294" text-anchor="middle" font-size="11.5" fill="#97A0B0">architect</text></g>
+<circle class="pop" style="animation-delay:2.30s" cx="668.5714285714286" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:2.40s"><line x1="668.5714285714286" y1="210" x2="668.5714285714286" y2="198" stroke="#2E3848"/><text class="mono" x="668.5714285714286" y="152" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2023</text><text x="668.5714285714286" y="168" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">RangeXT</text><text x="668.5714285714286" y="183" text-anchor="middle" font-size="11.5" fill="#97A0B0">begins</text></g>
+<circle class="pop" style="animation-delay:2.80s" cx="805.7142857142857" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:2.90s"><line x1="805.7142857142857" y1="234" x2="805.7142857142857" y2="246" stroke="#2E3848"/><text class="mono" x="805.7142857142857" y="262" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2024</text><text x="805.7142857142857" y="279" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">Assistant</text><text x="805.7142857142857" y="294" text-anchor="middle" font-size="11.5" fill="#97A0B0">Manager</text></g>
+<circle class="pop" style="animation-delay:3.30s" cx="942.8571428571429" cy="222" r="7" fill="#0A0D13" stroke="#EEF1F6" stroke-width="2.5"/>
+<g class="fadein" style="animation-delay:3.40s"><line x1="942.8571428571429" y1="210" x2="942.8571428571429" y2="198" stroke="#2E3848"/><text class="mono" x="942.8571428571429" y="152" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#EEF1F6">2025</text><text x="942.8571428571429" y="168" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">MSc Software Eng.</text><text x="942.8571428571429" y="183" text-anchor="middle" font-size="11.5" fill="#97A0B0">Kingston Univ.</text></g>
+<circle class="now" cx="1080.0" cy="222" r="7" fill="#8B7CFF"/>
+<circle class="pop" style="animation-delay:3.80s" cx="1080.0" cy="222" r="7" fill="#0A0D13" stroke="#8B7CFF" stroke-width="2.5"/>
+<circle class="pop" style="animation-delay:3.80s" cx="1080.0" cy="222" r="3" fill="#8B7CFF"/>
+<g class="fadein" style="animation-delay:3.90s"><line x1="1080.0" y1="234" x2="1080.0" y2="246" stroke="#2E3848"/><text class="mono" x="1080.0" y="262" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#8B7CFF">2026</text><text x="1080.0" y="279" text-anchor="middle" font-size="12.5" font-weight="600" fill="#EEF1F6">AI Engineer &amp;</text><text x="1080.0" y="294" text-anchor="middle" font-size="11.5" fill="#97A0B0">Manager · Cogit Opus</text></g>
+</svg>
