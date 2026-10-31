@@ -1,32 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Candela Learning — paid web and Android learning platform for Sri Lankan students, with encrypted streaming, 2,300 lines of security rules and 326 test files">
-<title>Candela Learning — paid web and Android learning platform for Sri Lankan students, with encrypted streaming, 2,300 lines of security rules and 326 test files</title>
-<style>text{font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Segoe UI", Inter, Arial, sans-serif;}.b1,.b2,.b3,.run{transform-box:fill-box;transform-origin:center;}.b1{animation:drift1 26s ease-in-out infinite alternate;}.b2{animation:drift2 30s ease-in-out infinite alternate;animation-delay:-11s;}.b3{animation:drift3 22s ease-in-out infinite alternate;animation-delay:-5s;}@keyframes drift1{to{transform:translate(52px,38px);}}@keyframes drift2{to{transform:translate(-48px,-44px);}}@keyframes drift3{to{transform:translate(36px,-30px);}}.run{stroke-dasharray:90 1631.84;stroke-dashoffset:90;animation:run 9s linear infinite;}@keyframes run{from{stroke-dashoffset:90;}to{stroke-dashoffset:-1721.84;}}@media (prefers-reduced-motion: reduce){*{animation:none !important;}}</style>
-<defs><filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter><filter id="bloom" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="6"/></filter><filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000000" flood-opacity=".12"/></filter><linearGradient id="depth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".10"/><stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".85"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".25"/></linearGradient><linearGradient id="chipRim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".2"/></linearGradient><linearGradient id="ring" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F46E5" stop-opacity=".9"/><stop offset="1" stop-color="#9A6700" stop-opacity=".9"/></linearGradient><clipPath id="canvas"><rect x="0" y="0" width="1200" height="440" rx="28"/></clipPath></defs>
-<rect x="0.5" y="0.5" width="1199" height="439" rx="28" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
-<g clip-path="url(#canvas)"><g filter="url(#blur)"><circle class="b1" cx="190" cy="110" r="300" fill="#312E81" fill-opacity=".30"/><circle class="b2" cx="1070" cy="430" r="300" fill="#BF8700" fill-opacity=".30"/><circle class="b3" cx="300" cy="400" r="160" fill="#312E81" fill-opacity=".15"/></g></g>
-<text x="80" y="86" font-size="20" font-weight="600" fill="#4F46E5">02 — E-learning · Lead developer &amp; architect</text>
-<text x="80" y="148" font-size="48" font-weight="600" letter-spacing="-1.2" fill="#1F2328">Candela Learning</text>
-<text x="80" y="202" font-size="21" font-weight="400" fill="#59636E">Paid web and Android learning platform —</text>
-<text x="80" y="234" font-size="21" font-weight="400" fill="#59636E">video, SCORM and PDF lessons, offline</text>
-<text x="80" y="266" font-size="21" font-weight="400" fill="#59636E">downloads and subscriptions, content locked</text>
-<text x="80" y="298" font-size="21" font-weight="400" fill="#59636E">behind encrypted streaming and device limits.</text>
-<rect x="80" y="360" width="70" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="80" y="360" width="70" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="80" y="360" width="70" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="115.0" y="386" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">Vue</text>
-<rect x="162" y="360" width="139" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="162" y="360" width="139" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="162" y="360" width="139" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="231.5" y="386" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">TypeScript</text>
-<rect x="313" y="360" width="129" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="313" y="360" width="129" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="313" y="360" width="129" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="377.5" y="386" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">Capacitor</text>
-<rect x="454" y="360" width="119" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="454" y="360" width="119" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="454" y="360" width="119" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="513.5" y="386" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">Firebase</text>
-<rect x="640" y="40" width="480" height="360" rx="28" fill="#F6F8FA" fill-opacity=".62" filter="url(#shadow)"/>
-<rect x="640" y="40" width="480" height="360" rx="28" fill="url(#depth)"/>
-<rect x="640" y="40" width="480" height="360" rx="28" fill="none" stroke="url(#ring)" stroke-width="6" stroke-opacity=".18" filter="url(#bloom)"/>
-<rect x="640" y="40" width="480" height="360" rx="28" fill="none" stroke="url(#ring)" stroke-width="1.75"/>
-<rect class="run" x="640" y="40" width="480" height="360" rx="28" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity=".9" stroke-linecap="round"/>
-<text x="672" y="90" font-size="18" font-weight="500" fill="#6E7781">Security &amp; quality</text>
-<g transform="translate(1074,84)" fill="none" stroke="#4F46E5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="-11" y="-3" width="22" height="16" rx="3"/><path d="M-6,-3 v-5 a6,6 0 0 1 12,0 v5"/><circle cx="0" cy="5" r="1.6" fill="#4F46E5" stroke="none"/></g>
-<text x="672" y="190" font-size="64" font-weight="600" letter-spacing="-1.5" fill="#9A6700">2,300</text>
-<text x="672" y="220" font-size="18" font-weight="500" fill="#59636E">lines of security rules</text>
-<text x="912" y="190" font-size="64" font-weight="600" letter-spacing="-1.5" fill="#9A6700">326</text>
-<text x="912" y="220" font-size="18" font-weight="500" fill="#59636E">test files</text>
-<line x1="672" y1="250" x2="1088" y2="250" stroke="#D0D7DE" stroke-opacity=".9" stroke-width="1"/>
-<rect x="672" y="274" width="169" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="672" y="274" width="169" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="672" y="274" width="169" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="756.5" y="300" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">Encrypted HLS</text>
-<rect x="853" y="274" width="139" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="853" y="274" width="139" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="853" y="274" width="139" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="922.5" y="300" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">Private R2</text>
-<rect x="672" y="324" width="129" height="40" rx="20" fill="#FFFFFF" fill-opacity=".55"/><rect x="672" y="324" width="129" height="40" rx="20" fill="none" stroke="#D0D7DE" stroke-opacity="1" stroke-width="1"/><rect x="672" y="324" width="129" height="40" rx="20" fill="none" stroke="url(#chipRim)" stroke-width="1.25"/><text x="736.5" y="350" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">App Check</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-label="Candela Learning, 02 E-learning: makes learning more fun! Lead developer and architect of a paid web and Android learning platform for students in Sri Lanka, with Video, SCORM, PDF, Reading and Quiz lessons in Sinhala, Tamil and English, shown as the Candela app on a phone. Built with Vue, TypeScript, Capacitor, Firebase and Cloudflare, encrypted HLS, 2,300 lines of security rules and 326 test files.">
+<title>Candela Learning, 02 E-learning: makes learning more fun! Lead developer and architect of a paid web and Android learning platform for students in Sri Lanka, with Video, SCORM, PDF, Reading and Quiz lessons in Sinhala, Tamil and English, shown as the Candela app on a phone. Built with Vue, TypeScript, Capacitor, Firebase and Cloudflare, encrypted HLS, 2,300 lines of security rules and 326 test files.</title>
+<style>text{font-family:"Roboto Flex", Roboto, "Segoe UI", system-ui, -apple-system, Arial, sans-serif;}.fa,.fb{animation:float 7s ease-in-out infinite;}.fb{animation-delay:-3.5s;}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.bar{transform-box:fill-box;transform-origin:0 50%;animation:fill 9s cubic-bezier(.45,0,.2,1) infinite;}@keyframes fill{0%,12%{transform:scaleX(1)}26%{transform:scaleX(.55)}70%,100%{transform:scaleX(1)}}.gl{animation:breathe 9s ease-in-out infinite;}@keyframes breathe{0%,100%{opacity:1}50%{opacity:.7}}.ring{transform-box:fill-box;transform-origin:50% 50%;animation:ring 3.6s ease-out infinite;}@keyframes ring{0%{opacity:.55;transform:scale(1)}70%,100%{opacity:0;transform:scale(1.35)}}@media (prefers-reduced-motion: reduce){*{animation:none !important;}.ring{opacity:0 !important;}}</style>
+<defs>
+<linearGradient id="fx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".2" stop-color="#FFFFFF"/><stop offset=".86" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="fy" x1="0" y1="0" x2="0" y2="1"><stop offset=".09" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".3" stop-color="#FFFFFF"/><stop offset=".7" stop-color="#FFFFFF"/><stop offset=".91" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<mask id="mx" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="820"><rect width="1200" height="820" fill="url(#fx)"/></mask>
+<mask id="my" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="820"><rect width="1200" height="820" fill="url(#fy)"/></mask>
+<radialGradient id="glow"><stop offset="0" stop-color="#43C149" stop-opacity="0.220"/><stop offset="0.35" stop-color="#43C149" stop-opacity="0.176"/><stop offset="0.6" stop-color="#43C149" stop-opacity="0.092"/><stop offset="0.82" stop-color="#43C149" stop-opacity="0.026"/><stop offset="1" stop-color="#43C149" stop-opacity="0.000"/></radialGradient>
+<linearGradient id="tail" gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="372" y2="0"><stop offset="0" stop-color="#0B5F2B"/><stop offset="1" stop-color="#43C149"/></linearGradient>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#29CC57"/><stop offset="1" stop-color="#6AE360"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".07"/><stop offset=".35" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<clipPath id="scr"><rect x="810" y="92" width="320" height="608" rx="44"/></clipPath>
+<filter id="sh" x="-20%" y="-30%" width="140%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#10301C" flood-opacity=".14"/></filter>
+<filter id="psh" x="-30%" y="-10%" width="160%" height="125%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#10301C" flood-opacity=".20"/></filter>
+</defs>
+<g class="gl" mask="url(#my)"><g mask="url(#mx)"><ellipse cx="950" cy="396.0" rx="380" ry="330" fill="url(#glow)"/><ellipse cx="320" cy="390" rx="380" ry="230" fill="url(#glow)" opacity=".45"/></g></g>
+<rect x="64" y="204" width="417" height="40" rx="20" fill="#FFFFFF" stroke="#000000" stroke-opacity=".14" stroke-width="1.5"/>
+<circle cx="84" cy="224" r="14" fill="#43C149" fill-opacity=".16"/>
+<path d="M84 216c3.4 3.6 5 6 5 8.4a5 5 0 0 1-10 0c0-2.4 1.6-4.8 5-8.4z" fill="#22A848"/>
+<text x="108" y="230.5" font-size="18" fill="#000000" fill-opacity=".87"><tspan font-weight="700">Candela Learning</tspan><tspan fill-opacity=".64" font-weight="500" xml:space="preserve">  ·  02 — E-learning</tspan></text>
+<text x="61" y="308" font-size="70" font-weight="900" letter-spacing="-2.6" fill="#0E1110">Makes learning</text>
+<text x="61" y="384" font-size="70" font-weight="900" letter-spacing="-2.6" fill="url(#tail)">more fun!</text>
+<text x="64" y="440" font-size="20" fill="#000000" fill-opacity=".64">Lead developer &amp; architect of a paid web and Android learning</text>
+<text x="64" y="470" font-size="20" fill="#000000" fill-opacity=".64">platform for students in Sri Lanka, with Video, SCORM, PDF,</text>
+<text x="64" y="500" font-size="20" fill="#000000" fill-opacity=".64">Reading and Quiz lessons in Sinhala, Tamil and English.</text>
+<line x1="64" y1="530" x2="184" y2="530" stroke="#22A848" stroke-width="2.5" stroke-linecap="round"/>
+<g transform="translate(63,556)" fill="none" stroke="#14743A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></g>
+<text x="98" y="574" font-size="18" fill="#000000" fill-opacity=".64">Vue · TypeScript · Capacitor · Firebase · Cloudflare ·</text>
+<text x="98" y="602" font-size="18" fill="#000000" fill-opacity=".64">encrypted HLS · 2,300 lines of security rules · 326 test files</text>
+<rect x="797" y="232" width="4" height="64" rx="2" fill="#2E2E2E"/>
+<rect x="797" y="312" width="4" height="64" rx="2" fill="#2E2E2E"/>
+<rect x="1139" y="272" width="4" height="96" rx="2" fill="#2E2E2E"/>
+<rect x="800" y="82" width="340" height="628" rx="54" fill="#0A0A0A" filter="url(#psh)"/>
+<rect x="801.5" y="83.5" width="337" height="625" rx="52.5" fill="none" stroke="#2E2E2E" stroke-width="3"/>
+<rect x="810" y="92" width="320" height="608" rx="44" fill="#121212"/>
+<g clip-path="url(#scr)">
+<rect x="918" y="104" width="104" height="32" rx="16" fill="#000000"/>
+<text x="842" y="127" font-size="18" font-weight="700" fill="#FFFFFF">4:30</text>
+<rect x="1020" y="121" width="3.2" height="5" rx="1" fill="#FFFFFF"/>
+<rect x="1025" y="118" width="3.2" height="8" rx="1" fill="#FFFFFF"/>
+<rect x="1030" y="115" width="3.2" height="11" rx="1" fill="#FFFFFF"/>
+<rect x="1035" y="112" width="3.2" height="14" rx="1" fill="#FFFFFF"/>
+<path d="M1052 118a11.5 11.5 0 0 1 16 0M1055 121.4a7 7 0 0 1 10 0" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/><circle cx="1060" cy="125" r="1.9" fill="#FFFFFF"/>
+<rect x="1080" y="114" width="24" height="13" rx="3.5" fill="none" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="1.5"/><rect x="1082" y="116" width="16" height="9" rx="2" fill="#FFFFFF"/><rect x="1105.5" y="118" width="2" height="5" rx="1" fill="#FFFFFF" fill-opacity=".5"/>
+<circle cx="846" cy="164" r="19" fill="url(#brand)"/>
+<path d="M845 174c-6-3-8-9-4-16 2-3 6-5 11-6-1 5-1 9-3 13-1 3-3 6-6 8z" fill="#FFFFFF"/><path d="M845 174c1-6 3-10 6-14" fill="none" stroke="#1E9E47" stroke-width="1.6" stroke-linecap="round"/>
+<text x="874" y="173" font-size="27" font-weight="700" letter-spacing="-.6" fill="#FFFFFF">candela</text>
+<g transform="translate(1034,152)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2H4.5z"/><path d="M10 21a2.2 2.2 0 0 0 4 0"/></g>
+<circle cx="1054" cy="154" r="5" fill="#E5484D"/>
+<circle cx="1092" cy="164" r="20" fill="#4ED679"/>
+<text x="1092" y="170.4" text-anchor="middle" font-size="18" font-weight="800" fill="#0B3B1D">NP</text>
+<text x="828" y="220" font-size="18" font-weight="700" fill="#4ED679">Welcome back</text>
+<text x="828" y="250" font-size="25" font-weight="800" letter-spacing="-.4" fill="#FFFFFF">Good afternoon!</text>
+<text x="828" y="294" font-size="20" font-weight="800" fill="#FFFFFF">Continue</text>
+<text x="1112" y="294" text-anchor="end" font-size="18" font-weight="600" fill="#4ED679">See all</text>
+<rect x="828" y="308" width="284" height="104" rx="18" fill="#212121" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+<rect class="ring" x="842" y="322" width="52" height="52" rx="15" fill="none" stroke="#5FC7B4" stroke-width="2"/>
+<rect x="842" y="322" width="52" height="52" rx="15" fill="#5FC7B4"/>
+<path transform="translate(857,336)" d="M8.5 6.2v11.6c0 .8.9 1.3 1.6.8l8.6-5.8a1 1 0 0 0 0-1.6l-8.6-5.8c-.7-.5-1.6 0-1.6.8z" fill="#0B2E28"/>
+<text x="908" y="343" font-size="20" font-weight="800" fill="#FFFFFF">Speed of sound</text>
+<text x="908" y="369" font-size="18" fill="#FFFFFF" fill-opacity=".64">Science · Grade 11</text>
+<rect x="842" y="390" width="256" height="7" rx="3.5" fill="#424242"/>
+<rect class="bar" x="842" y="390" width="164" height="7" rx="3.5" fill="url(#brand)"/>
+<text x="828" y="450" font-size="20" font-weight="800" fill="#FFFFFF">Your subjects</text>
+<rect x="828" y="464" width="284" height="64" rx="16" fill="#212121" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+<rect x="841" y="474" width="44" height="44" rx="13" fill="#4ED679" fill-opacity=".16"/>
+<g transform="translate(851,484)" fill="none" stroke="#4ED679" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"/><path d="M10 3v6l-5.2 9a2 2 0 0 0 1.7 3h11a2 2 0 0 0 1.7-3L14 9V3"/><path d="M7.5 15h9"/></g>
+<text x="900" y="503" font-size="20" font-weight="800" fill="#FFFFFF">Science</text>
+<rect x="1020" y="481" width="78" height="30" rx="15" fill="#4ED679" fill-opacity=".16"/><text x="1059.0" y="502.3" text-anchor="middle" font-size="18" font-weight="700" fill="#4ED679">SCORM</text>
+<rect x="828" y="538" width="284" height="64" rx="16" fill="#212121" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+<rect x="841" y="548" width="44" height="44" rx="13" fill="#4ED679" fill-opacity=".16"/>
+<g transform="translate(851,558)" fill="none" stroke="#4ED679" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></g>
+<text x="900" y="577" font-size="20" font-weight="800" fill="#FFFFFF">History</text>
+<rect x="998" y="555" width="100" height="30" rx="15" fill="#4ED679" fill-opacity=".16"/><text x="1048.0" y="576.3" text-anchor="middle" font-size="18" font-weight="700" fill="#4ED679">Offline</text>
+<rect x="810" y="614" width="320" height="86" fill="#1A1A1A"/>
+<line x1="810" y1="614" x2="1130" y2="614" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+<rect x="812.0" y="628" width="60" height="36" rx="18" fill="#4ED679" fill-opacity=".16"/>
+<g transform="translate(830.0,634)" fill="none" stroke="#4ED679" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5L12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></g>
+<g transform="translate(894.0,634)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3.5"/><path d="M2.5 20c.6-3.4 3.2-5.5 6.5-5.5s5.9 2.1 6.5 5.5"/><path d="M16 5.2a3.4 3.4 0 0 1 0 6.6"/><path d="M18 14.8c1.9.7 3.1 2.6 3.5 5.2"/></g>
+<g transform="translate(958.0,634)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v8"/><path d="M8.5 12.5l3.5 3.5 3.5-3.5"/></g>
+<g transform="translate(1022.0,634)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></g>
+<g transform="translate(1086.0,634)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h9"/><path d="M17 7h3"/><circle cx="15" cy="7" r="2"/><path d="M4 17h3"/><path d="M11 17h9"/><circle cx="9" cy="17" r="2"/></g>
+<rect x="906" y="682" width="128" height="5" rx="2.5" fill="#FFFFFF" fill-opacity=".55"/>
+</g>
+<rect x="810" y="92" width="320" height="608" rx="44" fill="url(#sheen)"/>
+<g class="fa">
+<rect x="431" y="98" width="357" height="80" rx="20" fill="#FFFFFF" filter="url(#sh)"/>
+<rect x="431" y="98" width="357" height="80" rx="20" fill="none" stroke="#000000" stroke-opacity=".14" stroke-width="1.5"/>
+<rect x="447" y="114" width="48" height="48" rx="14" fill="#43C149" fill-opacity=".16"/>
+<g transform="translate(459,126)" fill="none" stroke="#14743A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 3h6v3H9z"/><path d="M8.8 13.2l2.3 2.3 4.4-4.6"/></g>
+<text x="509" y="133" font-size="20" font-weight="800" letter-spacing="-.2" fill="#0E1110">Sound quiz</text>
+<text x="509" y="158" font-size="18" fill="#000000" fill-opacity=".64">Your score · 85%</text>
+<rect x="683" y="123" width="89" height="30" rx="15" fill="#43C149" fill-opacity=".16"/><text x="727.5" y="144.3" text-anchor="middle" font-size="18" font-weight="700" fill="#14743A">Passed</text>
+</g>
+<g class="fb">
+<rect x="378" y="644" width="406" height="80" rx="20" fill="#FFFFFF" filter="url(#sh)"/>
+<rect x="378" y="644" width="406" height="80" rx="20" fill="none" stroke="#000000" stroke-opacity=".14" stroke-width="1.5"/>
+<rect x="394" y="660" width="48" height="48" rx="14" fill="#43C149" fill-opacity=".16"/>
+<g transform="translate(406,672)" fill="none" stroke="#14743A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></g>
+<text x="456" y="679" font-size="20" font-weight="800" letter-spacing="-.2" fill="#0E1110">Speed of sound</text>
+<text x="456" y="704" font-size="18" fill="#000000" fill-opacity=".64">Saved for offline</text>
+<rect x="636" y="669" width="132" height="30" rx="15" fill="#43C149" fill-opacity=".16"/><text x="702.0" y="690.3" text-anchor="middle" font-size="18" font-weight="700" fill="#14743A">Downloaded</text>
+</g>
 </svg>

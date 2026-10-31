@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Career timeline: from courseware to agents, eight milestones from 2012 to 2026, from instructional designer to AI engineer and manager">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Career timeline: from courseware to agents, eight milestones from 2012 to 2026, from instructional designer to AI and software architect">
 <title>From courseware to agents — career timeline 2012 to 2026</title>
 <defs>
 <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
@@ -56,6 +56,6 @@
 <circle class="node n7" cx="985.0" cy="262" r="7" fill="#9A6700" filter="url(#nodeglow)"/>
 <circle class="pul" cx="985.0" cy="262" r="7" fill="none" stroke="#9A6700" stroke-width="2"/>
 <text x="985.0" y="294" text-anchor="middle" font-size="20" font-weight="600" fill="#9A6700">2026</text>
-<text x="985.0" y="319" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">AI engineer &amp; manager</text>
-<text x="985.0" y="342" text-anchor="middle" font-size="18" font-weight="400" fill="#59636E">Cogit Opus</text>
+<text x="985.0" y="319" text-anchor="middle" font-size="18" font-weight="500" fill="#1F2328">AI &amp; software</text>
+<text x="985.0" y="342" text-anchor="middle" font-size="18" font-weight="400" fill="#59636E">architect</text>
 </svg>

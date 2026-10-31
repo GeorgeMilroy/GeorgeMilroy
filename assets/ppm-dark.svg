@@ -1,73 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="PPM Workflow — print production management for offset and flexo plates, with AI invoice extraction matched against SAP purchase orders">
-<title>PPM Workflow — print production management for offset and flexo plates, with AI invoice extraction matched against SAP purchase orders</title>
-<style>text{font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Segoe UI", Inter, Arial, sans-serif;}.b1,.b2,.b3,.pop,.pulse{transform-box:fill-box;transform-origin:center;}.b1{animation:drift1 26s ease-in-out infinite alternate;}.b2{animation:drift2 30s ease-in-out infinite alternate;animation-delay:-11s;}.b3{animation:drift3 22s ease-in-out infinite alternate;animation-delay:-6s;}.run{stroke-dasharray:90 1631.84;stroke-dashoffset:90;stroke-linecap:round;animation:run 9s linear infinite;}.pop{animation:pop .5s ease-out both;}.draw{animation:draw 1.6s ease-out both;}.pulse{animation:pulse 2.8s ease-out infinite;animation-delay:2.1s;}@keyframes drift1{to{transform:translate(50px,36px);}}@keyframes drift2{to{transform:translate(-44px,-52px);}}@keyframes drift3{to{transform:translate(40px,-30px);}}@keyframes run{to{stroke-dashoffset:-1631.84;}}@keyframes pop{from{transform:scale(.4);opacity:0;}to{transform:scale(1);opacity:1;}}@keyframes draw{to{stroke-dashoffset:0;}}@keyframes pulse{from{transform:scale(1);opacity:.7;}to{transform:scale(2.4);opacity:0;}}@media (prefers-reduced-motion: reduce){*{animation:none !important;}.draw{stroke-dashoffset:0 !important;}}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-label="PPM Workflow, 03 Workflows, lead developer and architect. Production management for offset and flexo printing plates, live since 2021. Jobs move through seven stages: Artwork, Repro, Outsource, Imposition, CtP, Plateout and Dispatch. AI invoice check: invoice, AI extract with OpenAI and Gemini, SAP purchase order, matched. Built with Vue, 100+ Cloud Functions, Firestore and SAP.">
+<title>PPM Workflow, 03 Workflows, lead developer and architect. Production management for offset and flexo printing plates, live since 2021. Jobs move through seven stages: Artwork, Repro, Outsource, Imposition, CtP, Plateout and Dispatch. AI invoice check: invoice, AI extract with OpenAI and Gemini, SAP purchase order, matched. Built with Vue, 100+ Cloud Functions, Firestore and SAP.</title>
 <defs>
-<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
-<filter id="bloom" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
-<filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000000" flood-opacity=".55"/></filter>
-<filter id="nodeglow" x="-100%" y="-100%" width="300%" height="300%"><feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#9E6A03" flood-opacity=".6"/></filter>
-<linearGradient id="depth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".06"/><stop offset=".4" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
-<linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".32"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".06"/></linearGradient>
-<linearGradient id="chiprim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".25"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".05"/></linearGradient>
-<linearGradient id="ring" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A5B4FC" stop-opacity=".9"/><stop offset="1" stop-color="#D29922" stop-opacity=".9"/></linearGradient>
-<clipPath id="canvas"><rect x="0" y="0" width="1200" height="440" rx="28"/></clipPath>
+<linearGradient id="fx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFF" stop-opacity="0"/><stop offset=".18" stop-color="#FFF"/><stop offset=".82" stop-color="#FFF"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></linearGradient>
+<linearGradient id="fy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF" stop-opacity="0"/><stop offset=".1" stop-color="#FFF" stop-opacity="0"/><stop offset=".4" stop-color="#FFF"/><stop offset=".66" stop-color="#FFF"/><stop offset=".9" stop-color="#FFF" stop-opacity="0"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></linearGradient>
+<mask id="mx" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="690"><rect width="1200" height="690" fill="url(#fx)"/></mask>
+<mask id="my" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="690"><rect width="1200" height="690" fill="url(#fy)"/></mask>
+<radialGradient id="gv"><stop offset="0" stop-color="#6848F0" stop-opacity="0.300"/><stop offset="0.4" stop-color="#6848F0" stop-opacity="0.255"/><stop offset="0.65" stop-color="#6848F0" stop-opacity="0.150"/><stop offset="0.85" stop-color="#6848F0" stop-opacity="0.045"/><stop offset="1" stop-color="#6848F0" stop-opacity="0.000"/></radialGradient>
+<radialGradient id="gm"><stop offset="0" stop-color="#D000F8" stop-opacity="0.160"/><stop offset="0.5" stop-color="#D000F8" stop-opacity="0.096"/><stop offset="1" stop-color="#D000F8" stop-opacity="0.000"/></radialGradient>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C9BDFF"/><stop offset="1" stop-color="#8A6CFF"/></linearGradient>
+<linearGradient id="t0" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#D000F8" stop-opacity=".30"/><stop offset="1" stop-color="#D000F8" stop-opacity="0.075"/></linearGradient>
+<linearGradient id="t1" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#F00050" stop-opacity=".30"/><stop offset="1" stop-color="#F00050" stop-opacity="0.075"/></linearGradient>
+<linearGradient id="t2" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#F83800" stop-opacity=".30"/><stop offset="1" stop-color="#F83800" stop-opacity="0.075"/></linearGradient>
+<linearGradient id="t3" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#F8D000" stop-opacity=".30"/><stop offset="1" stop-color="#F8D000" stop-opacity="0.075"/></linearGradient>
+<linearGradient id="t4" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#70F800" stop-opacity=".30"/><stop offset="1" stop-color="#70F800" stop-opacity="0.075"/></linearGradient>
+<linearGradient id="t5" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#18E8B0" stop-opacity=".30"/><stop offset="1" stop-color="#18E8B0" stop-opacity="0.075"/></linearGradient>
+<linearGradient id="t6" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#5068F8" stop-opacity=".30"/><stop offset="1" stop-color="#5068F8" stop-opacity="0.075"/></linearGradient>
+<filter id="soft" x="-30%" y="-40%" width="160%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="sh" x="-20%" y="-30%" width="140%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#140F33" flood-opacity=".45"/></filter>
+<filter id="tk" x="-40%" y="-80%" width="180%" height="260%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#6848F0" flood-opacity=".55"/></filter>
 </defs>
-<rect x="0.5" y="0.5" width="1199" height="439" rx="28" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-<g clip-path="url(#canvas)" filter="url(#blur)">
-<ellipse class="b1" cx="300" cy="90" rx="340" ry="280" fill="#4F46E5" fill-opacity=".55"/>
-<circle class="b2" cx="1090" cy="420" r="300" fill="#9E6A03" fill-opacity=".62"/>
-<circle class="b3" cx="260" cy="420" r="160" fill="#4F46E5" fill-opacity=".28"/>
-</g>
-<text x="80" y="86" font-size="20" font-weight="600" fill="#A5B4FC">03 — Workflows · Lead developer &amp; architect</text>
-<text x="80" y="148" font-size="48" font-weight="600" letter-spacing="-1.2" fill="#F0F6FC">PPM Workflow</text>
-<text x="80" y="202" font-size="21" font-weight="400" fill="#9198A1">Production management for offset and flexo</text>
-<text x="80" y="234" font-size="21" font-weight="400" fill="#9198A1">plates: stage tracking from artwork to</text>
-<text x="80" y="266" font-size="21" font-weight="400" fill="#9198A1">dispatch, approval cycles and AI invoice</text>
-<text x="80" y="298" font-size="21" font-weight="400" fill="#9198A1">extraction checked against live SAP orders.</text>
-<circle class="pulse" cx="85" cy="330" r="5" fill="none" stroke="#D29922" stroke-width="2" opacity="0"/>
-<circle cx="85" cy="330" r="5" fill="#D29922"/>
-<text x="100" y="336" font-size="18" font-weight="500" fill="#9198A1">Live since 2021 · present</text>
-<rect x="80" y="360" width="70" height="40" rx="20" fill="#1F262E" fill-opacity=".60"/><rect x="80" y="360" width="70" height="40" rx="20" fill="none" stroke="url(#chiprim)" stroke-width="1.25"/><text x="115.0" y="386.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">Vue</text>
-<rect x="162" y="360" width="189" height="40" rx="20" fill="#1F262E" fill-opacity=".60"/><rect x="162" y="360" width="189" height="40" rx="20" fill="none" stroke="url(#chiprim)" stroke-width="1.25"/><text x="256.5" y="386.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">Cloud Functions</text>
-<rect x="363" y="360" width="130" height="40" rx="20" fill="#1F262E" fill-opacity=".60"/><rect x="363" y="360" width="130" height="40" rx="20" fill="none" stroke="url(#chiprim)" stroke-width="1.25"/><text x="428.0" y="386.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">Firestore</text>
-<rect x="505" y="360" width="70" height="40" rx="20" fill="#1F262E" fill-opacity=".60"/><rect x="505" y="360" width="70" height="40" rx="20" fill="none" stroke="url(#chiprim)" stroke-width="1.25"/><text x="540.0" y="386.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">SAP</text>
-<rect x="640" y="40" width="480" height="360" rx="28" fill="#161B22" fill-opacity=".72" filter="url(#shadow)"/><rect x="640" y="40" width="480" height="360" rx="28" fill="url(#depth)"/><rect x="640" y="40" width="480" height="360" rx="28" fill="none" stroke="url(#ring)" stroke-width="6" stroke-opacity=".18" filter="url(#bloom)"/><rect x="640" y="40" width="480" height="360" rx="28" fill="none" stroke="url(#ring)" stroke-width="1.75"/><rect class="run" x="640" y="40" width="480" height="360" rx="28" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity=".9"/>
-<text x="672" y="88" font-size="18" font-weight="500" fill="#6E7681">Pipeline · Job 2611</text>
-<text x="1088" y="88" text-anchor="end" font-size="18" font-weight="500" fill="#6E7681">Stage 4 of 5</text>
-<line x1="712" y1="142" x2="1048" y2="142" stroke="#6E7681" stroke-opacity=".35" stroke-width="2"/>
-<line class="draw" x1="712" y1="142" x2="964.0" y2="142" stroke="#A5B4FC" stroke-width="2" style="stroke-dasharray:252.0;stroke-dashoffset:252.0"/>
-<g class="pop" style="animation-delay:0.0s">
-<circle cx="712.0" cy="142" r="13" fill="#A5B4FC"/>
-<path class="draw" d="M706.5,142 l4,4 l7,-7.5" fill="none" stroke="#0D1117" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:16;stroke-dashoffset:16;animation-delay:0.25s"/>
-</g>
-<text x="712.0" y="182" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">Artwork</text>
-<g class="pop" style="animation-delay:0.3s">
-<circle cx="796.0" cy="142" r="13" fill="#A5B4FC"/>
-<path class="draw" d="M790.5,142 l4,4 l7,-7.5" fill="none" stroke="#0D1117" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:16;stroke-dashoffset:16;animation-delay:0.55s"/>
-</g>
-<text x="796.0" y="182" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">Approval</text>
-<g class="pop" style="animation-delay:0.6s">
-<circle cx="880.0" cy="142" r="13" fill="#A5B4FC"/>
-<path class="draw" d="M874.5,142 l4,4 l7,-7.5" fill="none" stroke="#0D1117" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="stroke-dasharray:16;stroke-dashoffset:16;animation-delay:0.85s"/>
-</g>
-<text x="880.0" y="182" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">CTP</text>
-<circle class="pulse" cx="964.0" cy="142" r="13" fill="none" stroke="#D29922" stroke-width="2" opacity="0"/>
-<g class="pop" style="animation-delay:0.9s">
-<circle cx="964.0" cy="142" r="13" fill="#D29922" filter="url(#nodeglow)"/>
-<circle cx="964.0" cy="142" r="5.5" fill="#0D1117"/>
-</g>
-<text x="964.0" y="182" text-anchor="middle" font-size="18" font-weight="600" fill="#F0F6FC">Press</text>
-<circle cx="1048.0" cy="142" r="13" fill="#161B22" fill-opacity=".72" stroke="#6E7681" stroke-opacity=".5" stroke-width="2"/>
-<text x="1048.0" y="182" text-anchor="middle" font-size="18" font-weight="500" fill="#6E7681">Dispatch</text>
-<line x1="672" y1="216" x2="1088" y2="216" stroke="#6E7681" stroke-opacity=".3" stroke-width="1"/>
-<text x="672" y="254" font-size="18" font-weight="500" fill="#6E7681">Invoice matching</text>
-<text x="715.0" y="300.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">Invoice</text>
-<path d="M758.0,289.5 l4.5,4.5 l-4.5,4.5" fill="none" stroke="#A5B4FC" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="821.3" y="300.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">AI extract</text>
-<path d="M880.0,289.5 l4.5,4.5 l-4.5,4.5" fill="none" stroke="#A5B4FC" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="924.8" y="300.5" text-anchor="middle" font-size="18" font-weight="500" fill="#F0F6FC">SAP PO</text>
-<path d="M965.1,289.5 l4.5,4.5 l-4.5,4.5" fill="none" stroke="#A5B4FC" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="978" y="274" width="110" height="40" rx="20" fill="#1F262E" fill-opacity=".60"/><rect x="978" y="274" width="110" height="40" rx="20" fill="none" stroke="url(#chiprim)" stroke-width="1.25"/><text x="1033.0" y="300.5" text-anchor="middle" font-size="18" font-weight="500" fill="#D29922">Matched</text>
-<text x="672" y="362" font-size="18" font-weight="500" fill="#9198A1">3 of 3 lines matched</text>
-<text x="1088" y="362" text-anchor="end" font-size="18" font-weight="500" fill="#6E7681">PO 4500128733</text>
+<style>text{font-family:"Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;}@keyframes tok{0%{transform:translateX(0);opacity:1}8%{transform:translateX(0.00px);opacity:1}10%{transform:translateX(156.57px);opacity:1}18%{transform:translateX(156.57px);opacity:1}20%{transform:translateX(313.14px);opacity:1}28%{transform:translateX(313.14px);opacity:1}30%{transform:translateX(469.71px);opacity:1}38%{transform:translateX(469.71px);opacity:1}40%{transform:translateX(626.29px);opacity:1}48%{transform:translateX(626.29px);opacity:1}50%{transform:translateX(782.86px);opacity:1}58%{transform:translateX(782.86px);opacity:1}60%{transform:translateX(939.43px);opacity:1}85%{transform:translateX(939.43px);opacity:1}88%{transform:translateX(939.43px);opacity:0}88.05%{transform:translateX(0);opacity:0}92%{transform:translateX(0);opacity:1}100%{transform:translateX(0);opacity:1}}.tok{animation:tok 20s ease-in-out infinite;}@keyframes prog{0%{transform:scaleX(0);opacity:1}8%{transform:scaleX(0.0000);opacity:1}10%{transform:scaleX(0.1667);opacity:1}18%{transform:scaleX(0.1667);opacity:1}20%{transform:scaleX(0.3333);opacity:1}28%{transform:scaleX(0.3333);opacity:1}30%{transform:scaleX(0.5000);opacity:1}38%{transform:scaleX(0.5000);opacity:1}40%{transform:scaleX(0.6667);opacity:1}48%{transform:scaleX(0.6667);opacity:1}50%{transform:scaleX(0.8333);opacity:1}58%{transform:scaleX(0.8333);opacity:1}60%{transform:scaleX(1.0000);opacity:1}85%{transform:scaleX(1);opacity:1}88%{transform:scaleX(1);opacity:0}88.05%{transform:scaleX(0);opacity:0}92%{transform:scaleX(0);opacity:1}100%{transform:scaleX(0);opacity:1}}.prog{transform-box:fill-box;transform-origin:left center;animation:prog 20s ease-in-out infinite;}@keyframes l0{0%{opacity:1}8%{opacity:1}10.5%{opacity:0}91%{opacity:0}93%{opacity:1}100%{opacity:1}}.l0{animation:l0 20s ease-in-out infinite;}@keyframes l1{0%{opacity:0}8.75%{opacity:0}10%{opacity:1}18%{opacity:1}20.5%{opacity:0}100%{opacity:0}}.l1{animation:l1 20s ease-in-out infinite;}@keyframes n1{0%{opacity:0}9.5%{opacity:0}10%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.n1{animation:n1 20s ease-in-out infinite;}@keyframes l2{0%{opacity:0}18.75%{opacity:0}20%{opacity:1}28%{opacity:1}30.5%{opacity:0}100%{opacity:0}}.l2{animation:l2 20s ease-in-out infinite;}@keyframes n2{0%{opacity:0}19.5%{opacity:0}20%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.n2{animation:n2 20s ease-in-out infinite;}@keyframes l3{0%{opacity:0}28.75%{opacity:0}30%{opacity:1}38%{opacity:1}40.5%{opacity:0}100%{opacity:0}}.l3{animation:l3 20s ease-in-out infinite;}@keyframes n3{0%{opacity:0}29.5%{opacity:0}30%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.n3{animation:n3 20s ease-in-out infinite;}@keyframes l4{0%{opacity:0}38.75%{opacity:0}40%{opacity:1}48%{opacity:1}50.5%{opacity:0}100%{opacity:0}}.l4{animation:l4 20s ease-in-out infinite;}@keyframes n4{0%{opacity:0}39.5%{opacity:0}40%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.n4{animation:n4 20s ease-in-out infinite;}@keyframes l5{0%{opacity:0}48.75%{opacity:0}50%{opacity:1}58%{opacity:1}60.5%{opacity:0}100%{opacity:0}}.l5{animation:l5 20s ease-in-out infinite;}@keyframes n5{0%{opacity:0}49.5%{opacity:0}50%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.n5{animation:n5 20s ease-in-out infinite;}@keyframes l6{0%{opacity:0}58.75%{opacity:0}60%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.l6{animation:l6 20s ease-in-out infinite;}@keyframes n6{0%{opacity:0}59.5%{opacity:0}60%{opacity:1}85%{opacity:1}88%{opacity:0}100%{opacity:0}}.n6{animation:n6 20s ease-in-out infinite;}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.2s ease-out infinite;}@keyframes pulse{0%{transform:scale(1);opacity:.7}70%,100%{transform:scale(2.6);opacity:0}}.glow{transform-box:fill-box;transform-origin:center;animation:breathe 14s ease-in-out infinite alternate;}@keyframes breathe{from{transform:translate(-30px,0) scale(1)}to{transform:translate(30px,0) scale(1.06)}}@media (prefers-reduced-motion:reduce){*{animation:none!important;}}</style>
+<g mask="url(#my)"><g mask="url(#mx)">
+<ellipse class="glow" cx="600" cy="376" rx="560" ry="260" fill="url(#gv)"/>
+<ellipse cx="170.28571428571428" cy="356" rx="300" ry="190" fill="url(#gm)"/>
+</g></g>
+<text x="600" y="92" text-anchor="middle" font-size="20" font-weight="600" fill="#B0A0F8">03 — Workflows <tspan fill="#B8B2D6" font-weight="500">· Lead developer &amp; architect</tspan></text>
+<text x="600" y="158" text-anchor="middle" font-size="58" font-weight="700" letter-spacing="-1.4" fill="#FFFFFF">PPM <tspan fill="url(#tg)">Workflow</tspan></text>
+<text x="600" y="200" text-anchor="middle" font-size="21" fill="#B8B2D6">Production management for offset and flexo printing plates, artwork to dispatch.</text>
+<rect x="448.0" y="222" width="304" height="38" rx="19.0" fill="#28204E" fill-opacity=".9" stroke="#6848F0" stroke-opacity=".35"/>
+<circle class="pulse" cx="470.0" cy="241.0" r="5" fill="#18E8B0" opacity="0"/>
+<circle cx="470.0" cy="241.0" r="5" fill="#18E8B0"/>
+<text x="484.0" y="247.5" font-size="18" font-weight="500" fill="#FFFFFF">Live since 2021 · present</text>
+<rect x="60.00" y="296" width="140.57" height="140" rx="16" fill="#3E1A6A" filter="url(#sh)"/>
+<rect x="60.00" y="296" width="140.57" height="140" rx="16" fill="url(#t0)"/>
+<rect x="60.00" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l0" opacity="1"><rect x="60.00" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#D000F8" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="60.00" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#D000F8" stroke-width="2"/></g>
+<rect x="78.00" y="314" width="40" height="40" rx="10" fill="#D000F8"/>
+<path d="M98.0,324 a10,10 0 1 0 0,20 c2,0 2.6,-1.6 1.6,-3 c-1,-1.4 0,-3 1.8,-3 h2.6 a4,4 0 0 0 4,-4 c0,-5.5 -4.5,-10 -10,-10z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="93.0" cy="333" r="1.7" fill="#FFFFFF"/><circle cx="96.5" cy="328" r="1.7" fill="#FFFFFF"/><circle cx="102.0" cy="329" r="1.7" fill="#FFFFFF"/>
+<text x="78.00" y="394" font-size="32" font-weight="700" fill="#FFFFFF">42</text>
+<text x="78.00" y="422" font-size="18" font-weight="500" fill="#B8B2D6">Artwork</text>
+<path d="M206.07,360.0 l5,6 l-5,6" fill="none" stroke="#B0A0F8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="216.57" y="296" width="140.57" height="140" rx="16" fill="#421A56" filter="url(#sh)"/>
+<rect x="216.57" y="296" width="140.57" height="140" rx="16" fill="url(#t1)"/>
+<rect x="216.57" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l1" opacity="0"><rect x="216.57" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#F00050" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="216.57" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#F00050" stroke-width="2"/></g>
+<rect x="234.57" y="314" width="40" height="40" rx="10" fill="#F00050"/>
+<rect x="245.57" y="325" width="12" height="14" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="251.57" y="330" width="12" height="14" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="234.57" y="394" font-size="32" font-weight="700" fill="#FFFFFF">6</text>
+<text x="234.57" y="422" font-size="18" font-weight="500" fill="#B8B2D6">Repro</text>
+<path d="M362.64,360.0 l5,6 l-5,6" fill="none" stroke="#B0A0F8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="373.14" y="296" width="140.57" height="140" rx="16" fill="#43234C" filter="url(#sh)"/>
+<rect x="373.14" y="296" width="140.57" height="140" rx="16" fill="url(#t2)"/>
+<rect x="373.14" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l2" opacity="0"><rect x="373.14" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#F83800" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="373.14" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#F83800" stroke-width="2"/></g>
+<rect x="391.14" y="314" width="40" height="40" rx="10" fill="#F83800"/>
+<path d="M411.14,324 v20 M401.14,334 h20 M408.14,327 l3,-3 l3,3 M408.14,341 l3,3 l3,-3 M404.14,331 l-3,3 l3,3 M418.14,331 l3,3 l-3,3" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="391.14" y="394" font-size="32" font-weight="700" fill="#FFFFFF">4</text>
+<text x="391.14" y="422" font-size="18" font-weight="500" fill="#B8B2D6">Outsource</text>
+<path d="M519.21,360.0 l5,6 l-5,6" fill="none" stroke="#B0A0F8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="529.71" y="296" width="140.57" height="140" rx="16" fill="#43364A" filter="url(#sh)"/>
+<rect x="529.71" y="296" width="140.57" height="140" rx="16" fill="url(#t3)"/>
+<rect x="529.71" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l3" opacity="0"><rect x="529.71" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#F8D000" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="529.71" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#F8D000" stroke-width="2"/></g>
+<rect x="547.71" y="314" width="40" height="40" rx="10" fill="#F8D000"/>
+<rect x="557.71" y="325" width="20" height="18" rx="2" fill="none" stroke="#1F1A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M567.71,325 v18 M557.71,334 h20" fill="none" stroke="#1F1A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="547.71" y="394" font-size="32" font-weight="700" fill="#FFFFFF">5</text>
+<text x="547.71" y="422" font-size="18" font-weight="500" fill="#B8B2D6">Imposition</text>
+<path d="M675.79,360.0 l5,6 l-5,6" fill="none" stroke="#B0A0F8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="686.29" y="296" width="140.57" height="140" rx="16" fill="#323B4C" filter="url(#sh)"/>
+<rect x="686.29" y="296" width="140.57" height="140" rx="16" fill="url(#t4)"/>
+<rect x="686.29" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l4" opacity="0"><rect x="686.29" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#70F800" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="686.29" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#70F800" stroke-width="2"/></g>
+<rect x="704.29" y="314" width="40" height="40" rx="10" fill="#70F800"/>
+<rect x="714.29" y="326" width="20" height="16" rx="2" fill="none" stroke="#1F1A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M718.29,331 h12 M718.29,335 h12 M718.29,339 h7" fill="none" stroke="#1F1A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="704.29" y="394" font-size="32" font-weight="700" fill="#FFFFFF">12</text>
+<text x="704.29" y="422" font-size="18" font-weight="500" fill="#B8B2D6">CtP</text>
+<path d="M832.36,360.0 l5,6 l-5,6" fill="none" stroke="#B0A0F8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="842.86" y="296" width="140.57" height="140" rx="16" fill="#263762" filter="url(#sh)"/>
+<rect x="842.86" y="296" width="140.57" height="140" rx="16" fill="url(#t5)"/>
+<rect x="842.86" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l5" opacity="0"><rect x="842.86" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#18E8B0" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="842.86" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#18E8B0" stroke-width="2"/></g>
+<rect x="860.86" y="314" width="40" height="40" rx="10" fill="#18E8B0"/>
+<path d="M870.86,336 v6 h20 v-6 M880.86,324 v12 M876.86,332 l4,4 l4,-4" fill="none" stroke="#1F1A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="860.86" y="394" font-size="32" font-weight="700" fill="#FFFFFF">9</text>
+<text x="860.86" y="422" font-size="18" font-weight="500" fill="#B8B2D6">Plateout</text>
+<path d="M988.93,360.0 l5,6 l-5,6" fill="none" stroke="#B0A0F8" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="999.43" y="296" width="140.57" height="140" rx="16" fill="#2E296B" filter="url(#sh)"/>
+<rect x="999.43" y="296" width="140.57" height="140" rx="16" fill="url(#t6)"/>
+<rect x="999.43" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="1.25"/>
+<g class="l6" opacity="0"><rect x="999.43" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#5068F8" stroke-width="6" stroke-opacity=".85" filter="url(#soft)"/><rect x="999.43" y="296" width="140.57" height="140" rx="16" fill="none" stroke="#5068F8" stroke-width="2"/></g>
+<rect x="1017.43" y="314" width="40" height="40" rx="10" fill="#5068F8"/>
+<path d="M1026.43,339 v-12 h13 v12 M1039.43,331 h5 l4,4 v4 h-2 M1034.43,339 h3" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1031.43" cy="340" r="2.4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1043.43" cy="340" r="2.4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1017.43" y="394" font-size="32" font-weight="700" fill="#FFFFFF">15</text>
+<text x="1017.43" y="422" font-size="18" font-weight="500" fill="#B8B2D6">Dispatch</text>
+<line x1="130.29" y1="474" x2="1069.71" y2="474" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="3" stroke-linecap="round"/>
+<rect class="prog" x="130.29" y="472.5" width="939.43" height="3" rx="1.5" fill="#6848F0" style="transform:scaleX(0)"/>
+<line x1="130.29" y1="442" x2="130.29" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="130.29" cy="474" r="6" fill="#1F1A3A" stroke="#D000F8" stroke-width="2.5"/>
+<circle class="n0" cx="130.29" cy="474" r="3.5" fill="#D000F8" opacity="1"/>
+<line x1="286.86" y1="442" x2="286.86" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="286.86" cy="474" r="6" fill="#1F1A3A" stroke="#F00050" stroke-width="2.5"/>
+<circle class="n1" cx="286.86" cy="474" r="3.5" fill="#F00050" opacity="0"/>
+<line x1="443.43" y1="442" x2="443.43" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="443.43" cy="474" r="6" fill="#1F1A3A" stroke="#F83800" stroke-width="2.5"/>
+<circle class="n2" cx="443.43" cy="474" r="3.5" fill="#F83800" opacity="0"/>
+<line x1="600.00" y1="442" x2="600.00" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="600.00" cy="474" r="6" fill="#1F1A3A" stroke="#F8D000" stroke-width="2.5"/>
+<circle class="n3" cx="600.00" cy="474" r="3.5" fill="#F8D000" opacity="0"/>
+<line x1="756.57" y1="442" x2="756.57" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="756.57" cy="474" r="6" fill="#1F1A3A" stroke="#70F800" stroke-width="2.5"/>
+<circle class="n4" cx="756.57" cy="474" r="3.5" fill="#70F800" opacity="0"/>
+<line x1="913.14" y1="442" x2="913.14" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="913.14" cy="474" r="6" fill="#1F1A3A" stroke="#18E8B0" stroke-width="2.5"/>
+<circle class="n5" cx="913.14" cy="474" r="3.5" fill="#18E8B0" opacity="0"/>
+<line x1="1069.71" y1="442" x2="1069.71" y2="466" stroke="#B0A0F8" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/>
+<circle cx="1069.71" cy="474" r="6" fill="#1F1A3A" stroke="#5068F8" stroke-width="2.5"/>
+<circle class="n6" cx="1069.71" cy="474" r="3.5" fill="#5068F8" opacity="0"/>
+<g class="tok"><rect x="71.29" y="455.0" width="118" height="38" rx="19.0" fill="#6848F0" filter="url(#tk)"/><circle cx="90.29" cy="474" r="4" fill="#FFFFFF"/><text x="102.29" y="480.5" font-size="18" font-weight="700" fill="#FFFFFF">Job 2611</text></g>
+<rect x="60" y="522" width="1080" height="64" rx="32.0" fill="#1F1A3A" fill-opacity=".92" stroke="#6848F0" stroke-opacity=".45"/>
+<rect x="74" y="536.0" width="36" height="36" rx="18" fill="#6848F0"/>
+<path d="M92,545.0 q1.6,7.4 9,9 q-7.4,1.6 -9,9 q-1.6,-7.4 -9,-9 q7.4,-1.6 9,-9z" fill="#FFFFFF"/>
+<text x="124" y="560.5" font-size="19" font-weight="700" fill="#B0A0F8">AI invoice check</text>
+<line x1="330.4" y1="540.0" x2="330.4" y2="568.0" stroke="#B8B2D6" stroke-opacity=".35"/>
+<text x="397.7" y="560.5" text-anchor="middle" font-size="18" font-weight="600" fill="#FFFFFF">Invoice</text>
+<path d="M465.1,554.0 h18 M478.1,549.0 l5,5 l-5,5" fill="none" stroke="#B0A0F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="645.8" y="560.5" text-anchor="middle" font-size="18" font-weight="600" fill="#FFFFFF">AI extract<tspan dx="10" font-weight="400" fill="#B8B2D6">OpenAI · Gemini</tspan></text>
+<path d="M808.6,554.0 h18 M821.6,549.0 l5,5 l-5,5" fill="none" stroke="#B0A0F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="888.5" y="560.5" text-anchor="middle" font-size="18" font-weight="600" fill="#FFFFFF">SAP PO</text>
+<path d="M950.5,554.0 h18 M963.5,549.0 l5,5 l-5,5" fill="none" stroke="#B0A0F8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="998.0" y="536.0" width="128" height="36" rx="18" fill="#047D76"/>
+<path d="M1013.0,554.0 l4,4 l8,-8" fill="none" stroke="#FFFFFF" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1032.0" y="560.5" font-size="18" font-weight="700" fill="#FFFFFF">Matched</text>
+<text x="600" y="628" text-anchor="middle" font-size="18" font-weight="500" fill="#B8B2D6">Vue · 100+ Cloud Functions · Firestore · SAP</text>
 </svg>
